@@ -56,14 +56,14 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 
-                groupId = 'com.github.datnx'
-                artifactId = 'mylibrary'
+                groupId = 'com.github.nguyenxdat'
+                artifactId = 'my-library'
                 version = '1.0.0'
                 
                 pom {
                     name = 'My Android Library'
                     description = 'A sample library for JitPack demonstration'
-                    url = 'https://github.com/nguyenxdat/mylibrary'
+                    url = 'https://github.com/nguyenxdat/my-library'
                     
                     licenses {
                         license {
@@ -74,16 +74,16 @@ afterEvaluate {
                     
                     developers {
                         developer {
-                            id = 'datnx'
+                            id = 'nguyenxdat'
                             name = 'Dat Nguyen'
                             email = 'nguyenxtdat@gmail.com'
                         }
                     }
                     
                     scm {
-                        connection = 'scm:git:git://github.com/nguyenxdat/mylibrary.git'
-                        developerConnection = 'scm:git:ssh://github.com:nguyenxdat/mylibrary.git'
-                        url = 'https://github.com/nguyenxdat/mylibrary'
+                        connection = 'scm:git:git://github.com/nguyenxdat/my-library.git'
+                        developerConnection = 'scm:git:ssh://github.com:nguyenxdat/my-library.git'
+                        url = 'https://github.com/nguyenxdat/my-library'
                     }
                 }
             }

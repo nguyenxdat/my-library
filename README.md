@@ -1,6 +1,6 @@
 # My Android Library
 
-[![](https://jitpack.io/v/datnx/mylibrary.svg)](https://jitpack.io/#datnx/mylibrary)
+[![](https://jitpack.io/v/nguyenxdat/my-library.svg)](https://jitpack.io/#nguyenxdat/my-library)
 
 A comprehensive Android utility library providing string manipulation, mathematical operations, and date utilities.
 
@@ -47,7 +47,7 @@ Add the dependency to your app `build.gradle` file:
 
 ```gradle
 dependencies {
-    implementation 'com.github.datnx:mylibrary:1.0.0'
+    implementation 'com.github.nguyenxdat:my-library:1.0.0'
 }
 ```
 
@@ -179,4 +179,4 @@ SOFTWARE.
 
 If you find this library helpful, please give it a ⭐ on GitHub!
 
-For issues and feature requests, please use the [GitHub Issues](https://github.com/datnx/mylibrary/issues) page.
+For issues and feature requests, please use the [GitHub Issues](https://github.com/nguyenxdat/my-library/issues) page.
